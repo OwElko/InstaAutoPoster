@@ -49,7 +49,7 @@ while True:
 
             if pic not in posted_pic_list:
                 posted_pic_list.append(pic)
-                with open("pics.txt", "a", encoding="utf8") as f:
+                with open("posted.txt", "a", encoding="utf8") as f:
                     f.write(pic + "\n")
 
             time.sleep(timeout)
