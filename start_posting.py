@@ -9,7 +9,7 @@ from instabot import Bot  # noqa: E402
 
 posted_pic_list = []
 try:
-    with open("pics.txt", "r", encoding="utf8") as f:
+    with open("posted.txt", "r", encoding="utf8") as f:
         posted_pic_list = f.read().splitlines()
 except Exception:
     posted_pic_list = []
